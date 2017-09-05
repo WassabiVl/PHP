@@ -50,11 +50,11 @@ function getFormHTML($userInputValue){
 //if you want to get the value of that form, needs to assign an id to the input type to target  it and get the value by using the .value
 //there is 2 missing symbols to properly format the HTML after .$userInputValue.' there should be " /
 // code goes here for correct html creation
-function getFormHTML($userInputValue){
+function getFormHTML1($userInputValue){
 	$html = '<form action="/form-submit.php"><input type="text" name="content" id="getFormHTMLtxt" value="'.$userInputValue.'"/><input type="submit" value="submit" /></form>';
 	return $html;
 }
-echo getFormHTML("a");
+echo getFormHTML1("a");
 
 
 
